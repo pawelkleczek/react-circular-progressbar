@@ -31,7 +31,7 @@ export type CircularProgressbarDefaultProps = {
 // These are used for any CircularProgressbar wrapper components that can safely
 // ignore default props.
 export type CircularProgressbarWrapperProps = Partial<CircularProgressbarDefaultProps> & {
-  value?: number;
+  value: number;
 };
 
 export type Path = {
